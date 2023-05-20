@@ -1,0 +1,15 @@
+.top-content {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.mid-content main section > h2 {
+    font-family: 'Catamaran', sans-serif;
+}
+
+.mid-content main section > p {
+    font-family: 'Yantramanav', sans-serif;
+}
+
+.bot-content footer {
+    font-family: 'Yantramanav', sans-serif;
+}
