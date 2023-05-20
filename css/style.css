@@ -105,7 +105,7 @@ body {
     flex-direction: column;
     gap: 20px;
     background-color: #0D0E09;
-    border-radius: 5%;
+    border-radius: 20px;
 }
 
 .mid-content > main > section.about > div.about-right {
@@ -133,7 +133,6 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     margin: 0px 50px;
     color: #d8dbba;
-    font-weight: 900;
     font-size: 3.5em;
 }
 
@@ -144,6 +143,92 @@ body {
     text-align: justify;
     margin: 0px 50px;
 }
+
+.mid-content > main > section.brands {
+    /* border: 3px solid hotpink; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: #0D0E09; */
+    gap: 5px;
+}
+
+.mid-content > main > section.brands > .brands-header {
+    background-color: #0D0E09;
+    border-radius: 20px;
+
+}
+
+.mid-content > main > section.brands > .brands-header > h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #d8dbba;
+    font-size: 3.5em;
+    padding: 20px;
+}
+
+.mid-content > main > section.brands > .brands-logo {
+    border: 3px solid lawngreen;
+    background-color: #0D0E09;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.mid-content > main > section.brands > .brands-logo > .anyone {
+    border: 3px solid gray;
+}
+
+.mid-content > main > section.brands > .brands-logo > .anyone, .fontaine, .dealersgrip {
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    gap: 30px;
+}
+
+.mid-content > main > section.brands > .brands-logo > .anyone > .a1-decks {
+    /* border: 2px dotted blueviolet; */
+    display: flex;
+    flex-direction: column;
+}
+
+.mid-content > main > section.brands > .brands-logo > .anyone > .a1-decks > h3 {
+    border: 2px dotted palegreen;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #d8dbba;
+    font-size: 1.5em;
+}
+
+.mid-content > main > section.brands > .brands-logo > .anyone > .a1-decks > .a1-imgs {
+    border: 2px dotted lightcoral;
+    display: flex;
+    flex-direction: row;
+}
+
+/* FINISH FONTAINE AND DG TOP 3 DECKS */
+
+.mid-content > main > section.brands > .brands-logo > div > h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #d8dbba;
+    font-size: 2em;
+}
+
+.mid-content > main > section.brands > .brands-logo > div > img {
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.mid-content > main > section.brands > .brands-logo > .fontaine > img {
+    border-radius: 10px;
+}
+
+.mid-content > main > section.brands > .brands-logo > div > p {
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 22px;
+}
+
 
 .bot-content {
     flex: 1;
