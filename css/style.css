@@ -167,7 +167,7 @@ body {
 }
 
 .mid-content > main > section.brands > .brands-logo {
-    border: 3px solid lawngreen;
+    /* border: 3px solid lawngreen; */
     background-color: #0D0E09;
     border-radius: 20px;
     display: flex;
@@ -176,10 +176,10 @@ body {
 }
 
 .mid-content > main > section.brands > .brands-logo > .anyone {
-    border: 3px solid gray;
+    /* border: 3px solid gray; */
 }
 
-.mid-content > main > section.brands > .brands-logo > .anyone, .fontaine, .dealersgrip {
+.anyone, .fontaine, .dealersgrip {
     color: aliceblue;
     display: flex;
     flex-direction: column;
@@ -195,19 +195,45 @@ body {
 }
 
 .mid-content > main > section.brands > .brands-logo > .anyone > .a1-decks > h3 {
-    border: 2px dotted palegreen;
+    /* border: 2px dotted palegreen; */
     font-family: 'Source Sans Pro', sans-serif;
     color: #d8dbba;
-    font-size: 1.5em;
+    font-size: 1.7em;
 }
 
 .mid-content > main > section.brands > .brands-logo > .anyone > .a1-decks > .a1-imgs {
-    border: 2px dotted lightcoral;
+    /* border: 2px dotted lightcoral; */
     display: flex;
     flex-direction: row;
 }
 
 /* FINISH FONTAINE AND DG TOP 3 DECKS */
+.mid-content > main > section.brands > .brands-logo > .fontaine > .fonts-decks > h3 {
+    /* border: 2px dotted palegreen; */
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #d8dbba;
+    font-size: 1.7em;
+}
+
+.mid-content > main > section.brands > .brands-logo > .fontaine > .fonts-decks > .font-imgs {
+    /* border: 2px dotted lightcoral; */
+    display: flex;
+    flex-direction: row;
+}
+
+.mid-content > main > section.brands > .brands-logo > .dealersgrip > .dg-decks > h3 {
+    /* border: 2px dotted palegreen; */
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #d8dbba;
+    font-size: 1.7em;
+}
+
+.mid-content > main > section.brands > .brands-logo > .dealersgrip > .dg-decks > .dg-imgs {
+    /* border: 2px dotted lightcoral; */
+    display: flex;
+    flex-direction: row;
+}
+
 
 .mid-content > main > section.brands > .brands-logo > div > h3 {
     font-family: 'Source Sans Pro', sans-serif;
