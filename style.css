@@ -19,11 +19,9 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* border: 2px solid hotpink; */
 }
 
 .top-content {
-    /* border: 2px solid forestgreen; */
     flex: 1;
     font-family: 'Source Sans Pro', sans-serif;
     background-color: #0D0E09;
@@ -42,17 +40,14 @@ body {
 
 .top-content header > img {
     width: 50px;
-    /* border-radius: 50%; */
 }
 
 .top-content header > h1 {
-    /* border: 1px solid maroon; */
     color: #d8dbba;
     font-size: 3em;
 }
 
 .top-content nav {
-    /* border: 1px solid darkblue; */
     flex: 1;
     display: flex;
     align-items: center;
@@ -61,7 +56,6 @@ body {
 }
 
 .top-content nav > ul {
-    /* border: 1px solid rosybrown; */
     display: flex;
     gap: 60px;
 }
@@ -69,14 +63,12 @@ body {
 .mid-content {
     flex: 30;
     background-color: #EDDEBF;
-    /* padding: 50px; */
     display: flex;
     justify-content: center;
     text-align: center;
 }
 
 .mid-content > main {
-    /* border: 2px solid darkorchid; */
     display: flex;
     width: 100vw;
     flex-direction: column;
@@ -84,49 +76,24 @@ body {
 }
 
 .mid-content > main > section {
-    /* border: 2px solid red; */
     flex: 1;
-    margin-left: 100px;
-    margin-right: 100px;
 }
 
 .mid-content > main > section.about {
-    /* border: 3px solid hotpink; */
     display: flex;
-    padding: 30px 0px;
+    margin: 30px 100px;
+    background-color: #0D0E09;
+    border-radius: 20px;
 }
 
 .mid-content > main > section.about > div.about-left {
-    /* border: 1px solid green; */
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 20px;
-    background-color: #0D0E09;
-    border-radius: 20px;
-}
-
-.mid-content > main > section.about > div.about-right {
-    /* border: 1px solid yellow; */
-    flex: 2;
-    min-width: 1030px;
-    max-width: 1030px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: end;
-    align-items: center;
-}
-
-.mid-content > main > section.about > div.about-right > iframe:nth-child(1),  iframe:nth-child(3) {
-    /* border: 1px solid red; */
-    margin-right: 30px;
-}
-
-.mid-content > main > section.about > div.about-right > iframe:nth-child(3),  iframe:nth-child(4) {
-    margin-top: 30px;
+    padding: 30px 0px;
 }
 
 .mid-content > main > section.about > div.about-left > h2 {
@@ -144,19 +111,24 @@ body {
     margin: 0px 50px;
 }
 
+.mid-content > main > section.about > div.about-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .mid-content > main > section.brands {
-    /* border: 3px solid hotpink; */
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* background-color: #0D0E09; */
+    margin: 0px 100px 30px 100px;
     gap: 5px;
 }
 
 .mid-content > main > section.brands > .brands-header {
     background-color: #0D0E09;
     border-radius: 20px;
-
 }
 
 .mid-content > main > section.brands > .brands-header > h2 {
@@ -167,16 +139,12 @@ body {
 }
 
 .mid-content > main > section.brands > .brands-logo {
-    /* border: 3px solid lawngreen; */
     background-color: #0D0E09;
     border-radius: 20px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-}
-
-.mid-content > main > section.brands > .brands-logo > .anyone {
-    /* border: 3px solid gray; */
+    /* flex-wrap: wrap; */
 }
 
 .anyone, .fontaine, .dealersgrip {
@@ -189,51 +157,42 @@ body {
 }
 
 .mid-content > main > section.brands > .brands-logo > .anyone > .a1-decks {
-    /* border: 2px dotted blueviolet; */
     display: flex;
     flex-direction: column;
 }
 
 .mid-content > main > section.brands > .brands-logo > .anyone > .a1-decks > h3 {
-    /* border: 2px dotted palegreen; */
     font-family: 'Source Sans Pro', sans-serif;
     color: #d8dbba;
     font-size: 1.7em;
 }
 
 .mid-content > main > section.brands > .brands-logo > .anyone > .a1-decks > .a1-imgs {
-    /* border: 2px dotted lightcoral; */
     display: flex;
     flex-direction: row;
 }
 
-/* FINISH FONTAINE AND DG TOP 3 DECKS */
 .mid-content > main > section.brands > .brands-logo > .fontaine > .fonts-decks > h3 {
-    /* border: 2px dotted palegreen; */
     font-family: 'Source Sans Pro', sans-serif;
     color: #d8dbba;
     font-size: 1.7em;
 }
 
 .mid-content > main > section.brands > .brands-logo > .fontaine > .fonts-decks > .font-imgs {
-    /* border: 2px dotted lightcoral; */
     display: flex;
     flex-direction: row;
 }
 
 .mid-content > main > section.brands > .brands-logo > .dealersgrip > .dg-decks > h3 {
-    /* border: 2px dotted palegreen; */
     font-family: 'Source Sans Pro', sans-serif;
     color: #d8dbba;
     font-size: 1.7em;
 }
 
 .mid-content > main > section.brands > .brands-logo > .dealersgrip > .dg-decks > .dg-imgs {
-    /* border: 2px dotted lightcoral; */
     display: flex;
     flex-direction: row;
 }
-
 
 .mid-content > main > section.brands > .brands-logo > div > h3 {
     font-family: 'Source Sans Pro', sans-serif;
@@ -256,24 +215,71 @@ body {
 }
 
 .mid-content > main > section.quotes {
-    border: 3px solid hotpink;
+    margin: 0px 100px 30px 100px;
 }
 
 .mid-content > main > section.quotes > .quotes-content {
     border: 3px solid lightblue;
-
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #d8dbba;
+    background-color: #0D0E09;
+    font-size: 2.5em;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
 }
 
+.mid-content > main > section.quotes > .quotes-content > p:nth-child(2) {
+    text-align: center;
+}
+
+.mid-content > main > section.contact {
+    background-color: #0D0E09;
+    margin: 0  500px 30px 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.mid-content > main > section.contact > .contact-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.mid-content > main > section.contact > .contact-text > h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #d8dbba;
+    font-size: 2em;
+}
+
+.mid-content > main > section.contact > .contact-text > p {
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 1.3em;
+    color: whitesmoke;
+}
+
+.mid-content > main > section.contact > .contact-button > button {
+    background-color: whitesmoke;
+    border-radius: 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1em;
+    color: #0D0E09;
+    padding: 0.8em;
+}
 
 .bot-content {
-    flex: 1;
-    border: 2px solid darkturquoise;
-    background-color: #d8dbba;
+    background-color: #0D0E09;
+    padding: 20px;
 }
 
 
 .bot-content footer {
     font-family: 'Yantramanav', sans-serif;
     text-align: center;
-    /* color: ; */
+    color: #d8dbba;
 }
