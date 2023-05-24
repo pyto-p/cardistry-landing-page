@@ -121,7 +121,6 @@ body {
 .mid-content > main > section.brands {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     margin: 0px 100px 30px 100px;
     gap: 5px;
 }
