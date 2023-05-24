@@ -139,7 +139,7 @@ body {
 .mid-content > main > section.about > div.about-left > p {
     font-family: 'Yantramanav', sans-serif;
     font-size: 20px;
-    color: lightpink;
+    color: whitesmoke;
     text-align: justify;
     margin: 0px 50px;
 }
@@ -253,6 +253,15 @@ body {
 .mid-content > main > section.brands > .brands-logo > div > p {
     font-family: 'Yantramanav', sans-serif;
     font-size: 22px;
+}
+
+.mid-content > main > section.quotes {
+    border: 3px solid hotpink;
+}
+
+.mid-content > main > section.quotes > .quotes-content {
+    border: 3px solid lightblue;
+
 }
 
 
