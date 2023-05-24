@@ -113,7 +113,6 @@ body {
 }
 
 .mid-content > main > section.about > div.about-right {
-    border: 1px solid red;
     flex: 1;
     display: flex;
     justify-content: center;
