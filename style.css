@@ -120,6 +120,12 @@ body {
     padding: 30px 0px;
 }
 
+.mid-content > main > section.about > div.about-right > iframe {
+    width: 50em;
+    height: 40em; 
+    padding-right: 30px;
+}
+
 .mid-content > main > section.brands {
     display: flex;
     flex-direction: column;
