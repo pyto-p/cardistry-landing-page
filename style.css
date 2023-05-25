@@ -126,6 +126,19 @@ body {
     padding-right: 30px;
 }
 
+@media screen and (max-width: 800px) {
+
+    .mid-content > main > section.about > div.about-right {
+        padding-top: 0px;
+    }
+    
+    .mid-content > main > section.about > div.about-right > iframe {
+        width: 30em;
+        height: 20em;
+        padding-right: 0px;
+    }
+}
+
 .mid-content > main > section.brands {
     display: flex;
     flex-direction: column;
